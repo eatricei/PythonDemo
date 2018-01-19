@@ -1,0 +1,4 @@
+利用scrapy爬取豆瓣图书的信息 因为不是需要所有分类的图书 先把要存的分类存到了本地数据库通过数据库查询获取下一个要获取的分类名称并拼接url进行爬取
+scrapy crawl doubanspider -o info.csv
+
+info.csv通过excle的转换再存到数据库
